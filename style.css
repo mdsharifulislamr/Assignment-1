@@ -5,6 +5,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
+    margin: 0;
+    
 }
 
 .link-button{
@@ -19,6 +21,8 @@ body{
 .banner{
     height: 100vh;
     width: 100%;
+    background-blend-mode: darken;
+    
     
     
 }
@@ -32,14 +36,18 @@ body{
 }
 .header{
     font-size: 60px;
+    color: rgb(255, 255, 255);
 }
 .content-p{
     color: rgb(189, 186, 186);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .header-2{
     font-size: 35px;
     text-align: center;
+    padding: 55px 0 9px 0;
 }
 .flex-container{
     width: 100%;
@@ -61,7 +69,7 @@ body{
     text-align: center;
     line-height:100px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 3px;
     font-weight: 700;
     
 }
@@ -71,10 +79,11 @@ body{
 
 }
 
-.box-free{
-    background-color: tomato;
-    border-radius: 10px;
-
+#box-free{
+    background-color: rgba(248, 195, 186, 0.808);
+    border-radius: 10px;  
+    color: rgb(255, 51, 0);
+    
     
 }
 
@@ -86,10 +95,21 @@ button{
     border-radius: 5px;
     color: white;
 }
+.border-1{
+    border-bottom: 1px solid #ddd;
+    width: 75%;
+    margin: 0 auto;
+    color: grey;
+    font-size: 15px;
+    padding: 20px 0px 7px 0;
+
+}
 
 .paragraph{
     text-align: center;
-    size: 7pxpx;
+    margin-left: 15%;
+    margin-right: 15%;
+    size: 7px;   
 }
 
 .columns{
@@ -125,4 +145,19 @@ button{
     background: rgb(252, 252, 201);
 }
 
+form{
+    text-align: center;
+}
 
+#main-footer{
+	background: black;
+	color: gray;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+    font-size: 15px;
+}
+#footer-1{
+    color: tomato;
+    font-size: 30px;
+}
