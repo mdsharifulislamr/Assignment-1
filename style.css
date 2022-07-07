@@ -39,6 +39,7 @@ body{
 
 .header-2{
     font-size: 35px;
+    text-align: center;
 }
 .flex-container{
     width: 100%;
@@ -73,17 +74,55 @@ body{
 .box-free{
     background-color: tomato;
     border-radius: 10px;
+
     
 }
 
-form .txt_field{
-    position: relative;
-    border-bottom: 2px solid #adadad;
-    margin:30px 0;
+button{
+    background-color: tomato;
+    border: tomato;
+    font-weight: 700;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: white;
 }
-.link-button-2{
-    position: absolute;
-    float: right;
+
+.paragraph{
+    text-align: center;
+    size: 7pxpx;
+}
+
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+    
+}
+.wrapper{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+
+
+}
+.column{
+    flex: 1;
+    margin: 7px;
+    padding: 15px;
+    background: rgb(152, 150, 238);
+    transition: 0.3s;
+}
+#box-1{
+    background: rgb(226, 235, 255);
+}
+#box-2{
+    background: rgb(255, 238, 238);
+}
+
+#box-3{
+    background: rgb(252, 252, 201);
 }
 
 
